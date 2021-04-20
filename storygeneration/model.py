@@ -4,7 +4,7 @@ from tensorflow.contrib import legacy_seq2seq
 import random
 import numpy as np
 
-from .beam import BeamSearch
+from beam import BeamSearch
 
 class Model():
     def __init__(self, args, infer=False):
